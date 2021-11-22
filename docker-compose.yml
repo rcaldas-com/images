@@ -4,3 +4,4 @@ services:
     build: .
     volumes:
       - ./files:/images/files
+      - ./images.py:/images/images.py
